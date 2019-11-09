@@ -2,7 +2,7 @@ const fizzBuzz = require('../index');
 
 describe('My Fizz Buzz Test') = () => {
     it ("should return number"), () => {
-        expect(fizzBuzz.fizzBuzz(1)).toBe(1);
+        expect(fizzBuzz(1)).toBe(1);
     };
 
     test('should return "Fizz" when passed a mulitple of 3'), ()=>{
