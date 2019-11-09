@@ -16,4 +16,3 @@ server.listen(port, hostname, () => {
 
 // Fizz Buzz 
 console.log(word.fizzBuzz());
-
