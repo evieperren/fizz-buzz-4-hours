@@ -1,6 +1,7 @@
 const http = require('http');
 const word = require('./modules');
 const fs = require('fs');
+const fizz = require('../index');
 
 const hostname = '127.0.0.1';
 const port = 3002;
@@ -17,7 +18,7 @@ server.listen(port, hostname, () => {
 
 // Fizz Buzz 
 console.log(word.fizzBuzz());
-let data = word.fizzBuzz();
+let data = fizz;
 
 fs.writeFile('FizzBuzzOutput.txt', data, (err)=>{
     if(err){
