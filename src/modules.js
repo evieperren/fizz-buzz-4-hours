@@ -1,7 +1,3 @@
-exports.myDate= function (){
-    Date();
-}
-
 exports.fizzBuzz = function(){
     for(i = 1; i<= 100; i++){
         if(i % 3 === 0 && i % 5 === 0){
@@ -15,6 +11,5 @@ exports.fizzBuzz = function(){
         } else {
             console.log(i)
         }
-        
     }
 }
