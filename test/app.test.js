@@ -1,7 +1,7 @@
-const fizzBuzz = require('../src/modules');
+const fizzBuzz = require('../index');
 
 describe('My Fizz Buzz Test') = () => {
     test("should return number", () => {
-        expect(FizzBuzz(1)).toEqual(1);
+        expect(fizzBuzz.fizzBuzz(1)).toEqual(1);
     });
 }
